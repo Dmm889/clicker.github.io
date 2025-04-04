@@ -1,5 +1,5 @@
-body {
-    font-family: 'Arial', sans-serif; /*Шрифт для всего документа*/
+/* body {
+    font-family: 'Arial', sans-serif; /*Шрифт для всего документа
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
@@ -7,6 +7,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}*/
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Высота на весь экран */
+  display: flex;
+  justify-content: center; /* Центрирует по горизонтали */
+  align-items: center; /* Центрирует по вертикали */
+  background-color: #f8f9fa; /* Можно изменить цвет фона */
 }
 
 .container {
